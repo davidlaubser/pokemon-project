@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1><img src="pokemon1.png" alt="Pokemon" class="pokemon-icon"> Pokemon Information<img src="pokemon2.png"
+                alt="Pokemon" class="pokemon-icon">
+            <!-- Reference for pokemon1.png: https://za.pinterest.com/pin/612982199252815129/ -->
+            <!-- Reference for pokemon2.png: https://za.pinterest.com/pin/2603712278707760/ -->
+        </h1>
+        <p class="console-message">Please open the browser console to see the output of the JavaScript code.</p>
+        <select id="pokemon-select">
+            <option value="">Select a Pokemon</option>
+            <option value="squirtle">Squirtle</option>
+            <option value="bulbasaur">Bulbasaur</option>
+            <option value="charmander">Charmander</option>
+            <option value="pikachu">Pikachu</option>
+        </select>
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+        </div>
+        <div id="pokemon-info"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
